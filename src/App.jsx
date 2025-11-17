@@ -6,7 +6,7 @@ import Dashboard from "./pages/Dashboard";
 
 export default function App() {
   return (
-    <Router>
+    <Router basename="/travelfrontend">
       <Navbar />
       <Routes>
         <Route path="/" element={<Login />} />
